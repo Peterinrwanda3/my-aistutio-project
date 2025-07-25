@@ -21,7 +21,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStartGame }) => {
       <div className="space-y-4">
         <button
           onClick={() => onStartGame(Difficulty.Easy)}
-          className="w-full bg-brand-primary text-white font-bold py-4 px-6 rounded-xl text-xl hover:bg-blue-700 transition-transform transform hover:scale-105"
+          className="w-full bg-rw-yellow text-brand-text font-bold py-4 px-6 rounded-xl text-xl hover:bg-yellow-500 transition-transform transform hover:scale-105"
         >
           Easy
         </button>
